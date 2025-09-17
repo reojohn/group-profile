@@ -1,0 +1,122 @@
+
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, violet, lightblue);
+      color: #333;
+      line-height: 2.0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+      background:linear-gradient(to right, orange, black);;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2,5em;
+      cursor: pointer;
+    }
+
+    header h1:hover {
+       color: red;
+       transition: ease 0.5s;
+       
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+      padding: 10px;
+      border: solid 3px orange;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+
+    nav a:hover {
+      color: black; 
+      border: 3px solid orange;
+      transition: ease-in 0.5s;
+      border-radius: 50px;
+      background-color: #ffff;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .group-photo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .group-photo img {
+      width: 550px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+     
+    }
+
+    .group-photo img:hover {
+      transform: scale(1.1); 
+       transform: rotate(180deg);
+      transition-duration: 5s;
+    }
+
+    .members {
+      margin: 20px 0;
+    }
+
+    .member {
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      transition: box-shadow 0.3s;
+    }
+
+    .member:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    }
+
+    .member h3 {
+      color: darkblue;
+      font-family: Georgia, serif;
+    }
+
+    .bio {
+      margin: 30px 0;
+      padding: 15px;
+      background: #fff3cd;
+      border-left: 5px solid orange;
+      border-right: 5px solid orange;
+      font-style: italic;
+    }
+
+    footer {
+      background: navy;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
