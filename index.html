@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- SEARCH BAR -->
+  <div class="search-container">
+    <form class="search-bar" action="search">
+      <input type="search" placeholder="Enter city name" required>
+      <button type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <!-- WEATHER DISPLAY -->
+  <section class="weather-display">
+    <div class="city-header">
+      <div class="city-country-header">
+        <h1>City, Country</h1>
+      </div>
+      <div class="ongoing-warning">
+        Ongoing: Tropical Cyclone - Moderate
+      </div>
+    </div>
+
+    <div class="main-weather-info">
+      <div class="left-column">
+        <h2>Current Weather</h2>
+        <p>2:00 PM</p>
+        <h3>25°C</h3>
+        <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" width="70" alt="Partly Cloudy">
+        <p>Partly Cloudy</p>
+      </div>
+
+      <div class="right-column">
+        <p>Humidity: 60%</p>
+        <p>Wind Speed: 15 km/h</p>
+        <p>Feels Like: 27°C</p>
+        <p>UV Index: 5 (Moderate)</p>
+        <p>Visibility: 10 km</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7-DAY FORECAST SECTION -->
+  <section class="forecast-container">
+    <h2>7 Day Forecast</h2>
+    <div class="forecast-box">
+      <div class="day">Mon<br>26°C<br>☀️</div>
+      <div class="day">Tue<br>28°C<br>🌤</div>
+      <div class="day">Wed<br>24°C<br>🌦</div>
+      <div class="day">Thu<br>25°C<br>☁️</div>
+      <div class="day">Fri<br>27°C<br>☀️</div>
+      <div class="day">Sat<br>29°C<br>☀️</div>
+      <div class="day">Sun<br>26°C<br>🌦</div>
+    </div>
+  </section>
+
+<!-- OTHER CITIES SECTION -->
+<section class="other-cities-container">
+  <h2>Other Cities</h2>
+  <div class="cities-box">
+    <div class="city-card">
+      <p class="city-name">Manila</p>
+      <p class="temp">30°C</p>
+      <p class="weather">Cloudy</p>
+    </div>
+    <div class="city-card">
+      <p class="city-name">Cebu</p>
+      <p class="temp">40°C</p>
+      <p class="weather">Sunny</p>
+    </div>
+    <div class="city-card">
+      <p class="city-name">Davao</p>
+      <p class="temp">45°C</p>
+      <p class="weather">Rain</p>
+    </div>
+    <div class="city-card">
+      <p class="city-name">Baguio</p>
+      <p class="temp">30°C</p>
+      <p class="weather">Storm</p>
+    </div>
+    <div class="city-card">
+      <p class="city-name">Iloilo</p>
+      <p class="temp">45°C</p>
+      <p class="weather">Sun</p>
+    </div>
+    <div class="city-card">
+      <p class="city-name">Cagayan</p>
+      <p class="temp">100%</p>
+      <p class="weather">Sun</p>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
